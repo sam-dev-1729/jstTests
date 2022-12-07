@@ -1,7 +1,5 @@
-console.log('hello')
-
-
-
+console.log('hello');
+console.log('========== test1 ==========');
 
 /// factory functions
 /* function createCircle(radius, draw) {
@@ -22,8 +20,11 @@ console.log(cricle1.draw()); */
 }
 
 let obj = new Circle(23);
-
-console.log(obj); */
+console.log(obj);
+/// method that used for function . called them method becuse you knew now fuctions are object in js.
+Circle.call({}, 27);
+Circle.apply({}, [12]);
+*/
 
 /// Functions are object in javascript
 /*let func = Function('radius', `
@@ -33,11 +34,14 @@ this.draw = function(){
     };
 `);
 let c1 = new func(27);
-console.log(c1);*/
+console.log(c1);
+*/
+
 
 /// to type on value exist in javascript
 /// value types (primitive): {string, number , boolean , symbol , undifine , null}
 /// reference type : {objects , arrays , fuctions} , all of reference type is object
+/*
 let x1 = 10;
 let y1 = x1;
 x1 = 20;
@@ -50,3 +54,4 @@ let y = x;
 
 x.value = 20;
 console.log(y);
+*/
