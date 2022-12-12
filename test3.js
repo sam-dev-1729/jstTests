@@ -19,6 +19,6 @@ console.log(another);
 const another2 = Object.assign({ color: 'red' }, circle);
 console.log(another2);
 
-/// ... (spered operator)
+/// ... (spread operator)
 const another3 = { location: 'there', ...circle, color: 'blue' };
 console.log(another3);
